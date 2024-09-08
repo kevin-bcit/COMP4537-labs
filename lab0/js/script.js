@@ -3,7 +3,7 @@ COMP4537 Lab0
 name: Oy Kwan Kevin Ng
 bcit-id: A01341525
 
-url: https://ongweb.z9.web.core.windows.net/
+website: https://zealous-smoke-0d9c7f60f.5.azurestaticapps.net/COMP4537/labs/0/
 */
 
 const COLOR = ['red', 'lightgreen', 'yellow', 'orange', 'magenta', 'pink', 'brown', 'beige', 'salmon', 'greenyellow', 'turquoise', 'orchid', 'cyan', 'peru', 'deeppink']; // a selection of lighter colors for readibility
