@@ -1,0 +1,32 @@
+{
+    "trailingSlash": "auto",
+    "routes": [      
+        {
+            "route": "/COMP4537/labs/0/",
+            "rewrite": "/lab0/index.html"
+        },
+        {
+            "route": "/COMP4537/labs/0/css/*",
+            "rewrite": "/lab0/css/*"
+        },
+        {
+            "route": "/COMP4537/labs/0/js/*",
+            "rewrite": "/lab0/js/*"
+        },
+        {
+            "route": "/COMP4537/labs/0/lang/*",
+            "rewrite": "/lab0/lang/*"
+        },
+        {
+            "route": "/COMP4537/labs/1/",
+            "rewrite": "/lab1/index.html"
+        },
+        {
+            "route": "/",
+            "redirect": "index.html"
+        }
+    ],
+    "mimeTypes": {
+    ".json": "text/json"
+    }
+}
