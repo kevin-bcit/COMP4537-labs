@@ -3,23 +3,12 @@
     "routes": [      
         {
             "route": "/COMP4537/labs/0/",
-            "rewrite": "/lab0/index.html"
+            "redirect": "/lab0/"
         },
-        {
-            "route": "/COMP4537/labs/0/css/*",
-            "rewrite": "/lab0/css/*"
-        },
-        {
-            "route": "/COMP4537/labs/0/js/*",
-            "rewrite": "/lab0/js/*"
-        },
-        {
-            "route": "/COMP4537/labs/0/lang/*",
-            "rewrite": "/lab0/lang/*"
-        },
+        
         {
             "route": "/COMP4537/labs/1/",
-            "rewrite": "/lab1/index.html"
+            "redirect": "/lab1/"
         },
         {
             "route": "/",
