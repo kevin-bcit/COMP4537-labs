@@ -1,9 +1,9 @@
 {
     "trailingSlash": "auto",
-    "routes": [      
+    "routes": [
         {
-            "route": "/COMP4537/labs/0/",
-            "redirect": "/lab0/"
+            "route": "/COMP4537/labs/1/",
+            "redirect": "COMP4537/labs/1/index.html"
         },
         {
             "route": "/",
