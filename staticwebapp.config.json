@@ -3,7 +3,7 @@
     "routes": [
         {
             "route": "/COMP4537/labs/1/",
-            "redirect": "COMP4537/labs/1/index.html"
+            "rewrite": "COMP4537/labs/1/index.html"
         },
         {
             "route": "/",
