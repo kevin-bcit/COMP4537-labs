@@ -14,12 +14,7 @@ const pageName = window.location.pathname.split('/').pop().split('.')[0];
 
 //load the required language at start
 title_msg.innerText = TITLE_MSG;
-if (pageName === 'index') {
-    header_index_msg.innerHTML = HEADER_INDEX_MSG;
-    writer_msg.innerHTML = WRITER_MSG;
-    reader_msg.innerHTML = READER_MSG;
-}
-else if (pageName === 'writer') {
+if (pageName === 'writer') {
     header_writer_msg.innerHTML = HEADER_WRITER_MSG;
     writer_stored_time.innerHTML = WRITER_STORED_TIME;
     for (let i = 0; i < writer_rmv_btns.length; i++) {
@@ -32,4 +27,9 @@ else if (pageName === 'reader') {
     header_reader_msg.innerHTML = HEADER_READER_MSG;
     reader_updated_time.innerHTML = READER_UPDATED_TIME
     back_btn.innerHTML = BACK_MSG;
+}
+else if (pageName === 'index' || pageName === '') {
+    header_index_msg.innerHTML = HEADER_INDEX_MSG;
+    writer_msg.innerHTML = WRITER_MSG;
+    reader_msg.innerHTML = READER_MSG;
 }
