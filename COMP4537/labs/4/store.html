@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store a Word Definition</title>
+  </head>
+  <body>
+    <h1>Store a New Word Definition</h1>
+
+    <form id="store-form">
+      <label for="word">Word:</label>
+      <input type="text" id="word" name="word" required /><br /><br />
+
+      <label for="definition">Definition:</label>
+      <textarea
+        id="definition"
+        name="definition"
+        rows="4"
+        cols="50"
+        required
+      ></textarea>
+      <br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="feedback"></p>
+
+    <script src="store.js"></script>
+  </body>
+</html>
