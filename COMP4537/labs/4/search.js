@@ -1,4 +1,6 @@
 class SearchDefinition {
+  
+
   constructor() {
     this.form = document.getElementById("search-form");
     this.result = document.getElementById("result");
@@ -20,7 +22,9 @@ class SearchDefinition {
 
   sendRequest(word) {
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", `http://localhost:3000/api/definitions?word=${word}`, true);
+    xhr.open("GET", `${SERVER}/api/definitions?word=${word}`, true);
+
+    console.log(`sending GET request to server: ${SERVER}/api/definitions?word=${word}`);
 
     xhr.onload = () => {
       const response = JSON.parse(xhr.responseText);
